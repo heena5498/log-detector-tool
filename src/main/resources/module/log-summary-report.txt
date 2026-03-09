@@ -1,0 +1,16 @@
+Log Summary Report
+====================
+
+Total Log Entries Analyzed: 37
+
+Log Level Counts
+--------------------
+INFO: 17
+WARN: 6
+ERROR: 14
+
+Repeated Messages
+--------------------
+Connection refused by AuthServer -> 2
+Failed to connect to database -> 2
+Timeout while calling PaymentService -> 2

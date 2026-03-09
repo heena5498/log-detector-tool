@@ -1,0 +1,37 @@
+2026-03-07 10:15:20 INFO Application started successfully
+2026-03-07 10:15:24 INFO Loading configuration from config.yml
+2026-03-07 10:15:27 WARN Database connection is slow
+2026-03-07 10:15:30 ERROR Failed to connect to database
+2026-03-07 10:15:33 INFO Retrying database connection
+2026-03-07 10:15:36 ERROR Failed to connect to database
+2026-03-07 10:15:40 INFO Database connection established
+2026-03-07 10:15:45 INFO User login request received
+2026-03-07 10:15:47 INFO User authenticated successfully
+2026-03-07 10:16:02 WARN API response time exceeded threshold
+2026-03-07 10:16:10 ERROR Timeout while calling PaymentService
+2026-03-07 10:16:14 ERROR Timeout while calling PaymentService
+2026-03-07 10:16:18 INFO PaymentService recovered after retry
+2026-03-07 10:16:25 INFO Processing order ID 10452
+2026-03-07 10:16:29 ERROR NullPointerException in OrderService
+2026-03-07 10:16:30 ERROR java.lang.NullPointerException: Cannot invoke "String.length()" because "name" is null
+2026-03-07 10:16:31 ERROR at com.project.orders.OrderService.validate(OrderService.java:45)
+2026-03-07 10:16:32 ERROR at com.project.orders.OrderService.process(OrderService.java:72)
+2026-03-07 10:16:33 INFO Order request marked as failed
+2026-03-07 10:16:40 WARN Memory usage reached 85 percent
+2026-03-07 10:16:48 ERROR OutOfMemoryError detected in ReportGenerator
+2026-03-07 10:16:55 INFO Cleanup process started
+2026-03-07 10:17:02 INFO Cleanup process completed
+2026-03-07 10:17:10 WARN Disk space below safe threshold
+2026-03-07 10:17:15 ERROR Connection refused by AuthServer
+2026-03-07 10:17:18 ERROR Connection refused by AuthServer
+2026-03-07 10:17:22 INFO Switching to backup AuthServer
+2026-03-07 10:17:28 INFO Backup AuthServer connected successfully
+2026-03-07 10:17:35 ERROR Failed to write audit log to file
+2026-03-07 10:17:42 WARN File write latency is high
+2026-03-07 10:17:50 INFO Scheduled job triggered
+2026-03-07 10:17:54 ERROR IllegalStateException in Scheduler
+2026-03-07 10:17:58 INFO Scheduler restarted
+2026-03-07 10:18:05 INFO Health check endpoint returned status UP
+2026-03-07 10:18:12 WARN Cache miss rate increased above normal
+2026-03-07 10:18:20 ERROR Service crashed unexpectedly
+2026-03-07 10:18:30 INFO Application shutdown initiated
